@@ -1,0 +1,11 @@
+Amarelo
+Vermelho
+Laranja
+Marron
+Azul
+1
+3
+2
+15
+5
+4
