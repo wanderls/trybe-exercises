@@ -1,0 +1,43 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.list-style{
+    background-color: palegoldenrod;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style:italic;
+    text-align: center;
+    line-height: 2;
+    border-radius: 3vmax;
+    border-style: solid;
+    border-color:tomato;
+}
+
+ul {
+    border-radius: 3vmax;
+    border-style: solid;
+    border-color:tomato;
+    line-height:30px;
+}
+
+body{
+    font-size: 16px;
+}
+
+#idAmarelo {
+    background-color: yellow;
+}
+
+#idVermelho {
+    background-color: red;
+}
+
+#idMarrom{
+    background-color: brown;
+}
