@@ -1,0 +1,47 @@
+ol {
+    background-color: yellow;
+}
+
+/* nth-child (even) = numero da lista igual a par;
+nth-child (odd) = numero da lista igual impar */
+ol li:nth-child(even){
+    color: green;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    color: red;    
+}
+
+h1, h2, h3 em{  
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px
+}
+
+li em {
+    font-weight: bolder;
+}
+
+.linguagens li:nth-child(1),.linguagens li:nth-child(2),.linguagens li:nth-child(3){
+    color:blue;
+}
+
+.linguagens li:nth-child(2), .linguagens li:nth-child(3){
+    background-color: pink;
+}
+
+.aliados li a:hover, .aliados li:hover{
+    font-weight: bolder;
+    color: red;
+}
+
+ul.aliados li a:link, ul.aliados li a:visited, ul.aliados li a:active{
+    text-decoration: none;
+}
