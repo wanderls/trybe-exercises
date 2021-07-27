@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(180, 241, 241);
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 150%;
+}
+
+header {
+    font-size: 190%;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 35px;
+    padding-top: 5%;
+}
+
+nav {
+    border: 1px solid color rgb(180, 241, 241);
+    padding: 1%;
+    background-color:rgb(180, 241, 241);
+    max-width: 60%;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+article {
+    padding-top: 10%;
+    text-align: center;
+}
+
+img {
+    border-radius: 1em;
+    margin-top: 3%;
+    width: 50%;
+}
+
+p {
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+footer {
+    margin-top: 3%;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(147, 205, 243);
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 1em;
+}
+
+.aFinal {
+    margin-left: auto;
+}
+
+.imgContato img {
+    border-radius: 1em;
+    margin-top: 3%;
+    width: 40px;
+}
