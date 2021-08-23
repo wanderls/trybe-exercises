@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p class="classe1"> Terceiro parágrafo</p>
+      <p class="classe1"> Quarto parágrafo</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      
+      let segundoParagrafo = document.getElementById("second-paragraph");
+      
+      let titulo = document.getElementById("page-title");
+      segundoParagrafo.style.color = "red";
+      titulo.style.background = "black";
+      titulo.style.color = "white";
+      
+      let subTitulo = document.getElementById("subtitle");
+      subTitulo.style.background = "black";
+      
+
+      let subTitulo2 = document.getElementsByTagName("h4")[0];
+      subTitulo2.style.color = "white"
+
+      let classEstilo = document.getElementsByClassName("classe1")[0];
+      classEstilo.style.color = "green"
+
+
+      document.getElementById("page-title").innerText = "O Senhor dos Anéis.";
+      document.getElementById("second-paragraph").innerText = "Em 2022 será lançado a Primeira temporada da Série.";
+      document.getElementById("subtitle").innerText = "Série";
+    </script>
+  </body>
+</html>

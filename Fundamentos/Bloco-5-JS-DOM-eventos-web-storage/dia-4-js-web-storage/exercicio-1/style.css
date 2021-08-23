@@ -1,0 +1,41 @@
+body {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: justify;
+}
+
+.box1 {
+  height: 1024px;
+	width:  768px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+}
+
+.box2 {	
+  height: 80%;
+	width:  80%;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+  font-size: 15px;
+}
+
+.botao {
+  margin-top: 1px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.botaoTamanho {
+  margin-top: 1px;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin-left: 1%;
+}

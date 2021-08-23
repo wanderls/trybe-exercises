@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="node_modules/pikaday/css/pikaday.css">  
+  
+  <title> Curriculo </title>
+</head>
+<body>
+  <header class="text-center">
+    <h1 class="box display-3"> Currículo </h1>
+    <p class="lead">Monte seu currículo conosco!</p>
+    <hr>
+  </header>
+  <form action="#" class="container js-form form your-form">
+    <div class="mb-3">
+      <label for="name" class="form-label"> Nome: </label>
+        <input class="form-control" id="name" type="text" name="name" data-validate-field="name">
+    </div>
+    
+    <div class="mb-3">
+      <label for="email" class="form-label"> Email: </label>
+        <input class="form-control" id="email" type="email" name="email" data-validate-field="email">
+    </div>
+
+    <div class="mb-3">
+      <label for="cpf" class="form-label"> CPF: </label>
+        <input class="form-control" id="cpf" type="text" name="cpf" data-validate-field="cpf">
+    </div>
+
+    <div class="mb-3">
+      <label for="endereco" class="form-label"> Endereço: </label>
+        <input class="form-control" id="endereco" type="text" name="endereco" data-validate-field="endereco">
+    </div>
+
+    <div class="mb-3">
+      <label for="cidade" class="form-label"> Cidade: </label>
+        <input class="form-control" id="cidade" type="text" name="cidade" data-validate-field="cidade">
+    </div>
+
+    <div class="mb-3">
+      <label for="estado" class="form-label"> Estado: </label>
+        <select class="form-control" id="dropdown-estado" name="estado">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <input class="form-check-input" id="tipo1" type="radio" name="tipo" value="casa" data-validate-field="radio">
+        <label for="tipo1" class="form-label form-check-label"> Casa </label>
+      <br>
+        <input class="form-check-input" id="tipo2" type="radio" name="tipo" value="apartamento" data-validate-field="radio"> 
+        <label for="tipo2" class="form-label form-check-label"> Apartamento </label>
+    </div>
+
+    <div class="mb-3">
+      <label for="resumo" class="form-label"> Resumo do Currículo: </label>
+        <textarea class="form-control" id="resumo" name="resumo" cols="30" rows="10" data-validate-field="resumo"> </textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="cargo" class="form-label"> Cargo: </label>
+        <input class="form-control" id="cargo" type="text" name="cargo" data-validate-field="cargo">
+    </div>
+
+    <div class="mb-3">
+      <label for="descricaoCargo" class="form-label"> Descrição do Cargo: </label>
+        <textarea class="form-control" id="descricaoCargo" name="descricaoCargo" cols="30" rows="10" data-validate-field="descricaoCargo"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="dataInicio" class="form-label"> Data de Inicío: </label>
+        <input class="form-control" id="datepicker" type="text" placeholder="dia/mes/ano" data-validate-field="dataInicio">
+    </div>
+
+    <div class="mb-3">
+      <button class="btn btn-secundary" id="enviarFormulario" type="submit" > Enviar </button>
+      <button class="btn btn-secundary" id="reset" type="reset"> Limpar </button>
+    </div>
+  </form>
+
+  <!-- <form action="#" class="js-form form">
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="name">Enter your name</label>
+        <input type="text" class="form__input form-control" placeholder="Enter your name" autocomplete="off" data-validate-field="name" name="name" id="name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="email">Enter your email</label>
+        <input type="email" class="form__input form-control" placeholder="Enter your email" autocomplete="off" data-validate-field="email" name="email" id="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password">Enter your password</label>
+      <input type="password" class="form__input form-control" placeholder="Enter your password" autocomplete="off" data-validate-field="password" name="password" id="password">
+    </div>
+    <div class="form-group">
+      <label for="password">Enter your text</label>
+      <textarea name="msg" cols="30" rows="10" class="form__textarea form-control" data-validate-field="text" id="text"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="checkbox" class="form__checkbox" data-validate-field="checkbox" checked><label for="checkbox">I agree</label>
+    </div>
+    <div class="form-group">
+      <label><input type="checkbox" class="form__checkbox" data-validate-field="checkbox2" checked>I agree</label>
+    </div>
+    <div class="form-group">
+      <label><input type="radio" name="radio" class="form__radio" data-validate-field="radio">Male</label>
+      <br>
+      <label><input type="radio" name="radio" class="form__radio" data-validate-field="radio">Female</label>
+    </div>
+    <button class="form__btn btn btn-primary">SUBMIT</button>
+  </form> -->
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script> 
+  <script src="node_modules/moment/moment.js"></script>
+  <script src="node_modules/pikaday/pikaday.js"></script>
+  <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
