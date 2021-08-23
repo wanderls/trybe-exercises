@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Align Items</title>
+    <style>
+      .box-one {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 250px;
+      }
+
+      .box-two {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 250px;
+      }
+
+      .box-three {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: center;
+        width: 250px;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        align-items: center;
+      }
+
+      .box-one2 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: flex-start;
+        width: 250px;
+      }
+
+      .box-two2 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: flex-start;
+        width: 250px;
+      }
+
+      .box-three2 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: flex-start;
+        width: 250px;
+      }
+
+      .box-container2 {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        align-items: flex-start;
+      }
+
+      .box-one3 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: flex-end;
+        width: 250px;
+      }
+
+      .box-two3 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: flex-end;
+        width: 250px;
+      }
+
+      .box-three3 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: flex-end;
+        width: 250px;
+      }
+
+      .box-container3 {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        align-items: flex-end;
+      }
+
+      .box-one4 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: stretch;
+        width: 250px;
+      }
+
+      .box-two4 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: stretch;
+        width: 250px;
+      }
+
+      .box-three4 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: stretch;
+        width: 250px;
+      }
+
+      .box-container4 {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        align-items: stretch;
+      }
+
+      .box-one5 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: baseline;
+        width: 250px;
+      }
+
+      .box-two5 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: baseline;
+        width: 250px;
+      }
+
+      .box-three5 {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: baseline;
+        width: 250px;
+      }
+
+      .box-container5 {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        align-items: baseline;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box-one"> align-items: center </div>
+      <div class="box-two"> align-items: center </div>
+      <div class="box-three"> align-items: center </div>
+    </div>
+    <hr>
+    <div class="box-container2">
+      <div class="box-one2"> align-items: flex-start </div>
+      <div class="box-two2"> align-items: flex-start </div>
+      <div class="box-three2"> align-items: flex-start </div>
+    </div>
+    <hr>
+    <div class="box-container3">
+      <div class="box-one2"> align-items: flex-end </div>
+      <div class="box-two2"> align-items: flex-end </div>
+      <div class="box-three2"> align-items: flex-end </div>
+    </div>
+    <hr>
+    <div class="box-container4">
+      <div class="box-one2"> align-items: stretch </div>
+      <div class="box-two2"> align-items: stretch </div>
+      <div class="box-three2"> align-items: stretch </div>
+    </div>
+    <hr>
+    <div class="box-container5">
+      <div class="box-one2"> align-items: baseline </div>
+      <div class="box-two2"> align-items: baseline </div>
+      <div class="box-three2"> align-items: baseline </div>
+    </div>
+  </body>
+</html>
