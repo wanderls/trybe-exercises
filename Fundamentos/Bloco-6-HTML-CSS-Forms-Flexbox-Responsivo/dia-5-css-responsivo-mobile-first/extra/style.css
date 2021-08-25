@@ -84,3 +84,10 @@ p strong {
     display: flex;
   }
 }
+
+@media screen and (max-width: 500px) {
+  p.trick {
+    color: #525252;
+    font-size: 14px;
+  }
+}
