@@ -41,6 +41,7 @@ p strong {
 .cards {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
@@ -68,6 +69,12 @@ p strong {
 
 @media screen and (max-width: 500px) {
   .card:nth-child(1) {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .card:nth-child(2) {
     display: flex;
   }
 }
