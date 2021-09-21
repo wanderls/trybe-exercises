@@ -15,6 +15,7 @@ function insertPhraseInDOM() {
   const listLength = phrasesList.length - 1;
   const phraseText = phrasesList[listLength];
   const phrase = document.createElement('li');
+  phrase.classList = 'linha';
   phrase.innerText = phraseText;
   list.appendChild(phrase);
 };
@@ -28,6 +29,7 @@ function initialRenderization() {
     for (let index = 0; index <= listLength; index += 1) {
       const listElement = document.createElement('li');
       listElement.innerText = phrasesList[index];
+      listElement.classList = 'linha';
       list.appendChild(listElement);
     };
   };
